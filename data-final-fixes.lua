@@ -58,7 +58,7 @@ for _, entityType in pairs({ "artillery-wagon", "artillery-turret" }) do
 		    localised_name = { "recipe-name."..entityType.."-manual", baseLocalisedName },
 		    localised_description = { "recipe-description."..entityType.."-manual", baseLocalisedName },
 		    allow_as_intermediate = false,
-		    energy_required = 4,
+		    energy_required = 1,
 		    enabled = false,
 		    ingredients =
 		    {
@@ -81,7 +81,7 @@ for _, entityType in pairs({ "artillery-wagon", "artillery-turret" }) do
 		    localised_name = { "recipe-name."..entityType.."-manual-to-auto", baseLocalisedName },
 		    localised_description = { "recipe-description."..entityType.."-manual-to-auto", baseLocalisedName },
 		    allow_as_intermediate = false,
-		    energy_required = 4,
+		    energy_required = 1,
 		    enabled = false,
 		    ingredients =
 		    {
