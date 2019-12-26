@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2019-12-22
+  Bugfixes:
+    - Fix picking up artillery didn't keep manual fire mode.
+    - Fix recipes could be intermediates, which leads to confusion.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2019-12-22
+  Features:
+    - First release
+    - Recipe for converting turrets and wagons from/to manual fire mode.
