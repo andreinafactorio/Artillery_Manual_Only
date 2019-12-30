@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2019-12-22
+  Changes:
+    - Change craft time to 1 second.
+    - Fix recipes showing "Total raw" in tooltips.
+    - Fix recipes so they do not use other recipes as intermediates, which leads to confusion.
+    - Fix showing up in production stats.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2019-12-22
   Bugfixes:
