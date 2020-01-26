@@ -42,9 +42,10 @@ for _, entityType in pairs({ "artillery-wagon", "artillery-turret" }) do
 					manualItem.icons = getIcons(manualItem)
 					table.insert(manualItem.icons, {
 						icon = "__base__/graphics/icons/artillery-targeting-remote.png",
-						icon_size = 32,
-						shift = { 0.5, 0.5 },
-						scale = 0.75,
+						icon_size = 64,
+						icon_mipmaps = 4,
+						shift = { -8, 8 },
+						scale = 0.5 * 0.65,
 					})
 
 					table.insert(newProtos, manualItem)
@@ -73,9 +74,10 @@ for _, entityType in pairs({ "artillery-wagon", "artillery-turret" }) do
 		toManualRecipe.icons = getIcons(entityManual)
 		table.insert(toManualRecipe.icons, {
 			icon = "__base__/graphics/icons/artillery-targeting-remote.png",
-			icon_size = 32,
-			shift = { 0.5, 0.5 },
-			scale = 0.75,
+			icon_size = 64,
+			icon_mipmaps = 4,
+			shift = { -8, 8 },
+			scale = 0.5 * 0.65,
 		})
 
 		local toAutoRecipe = {
