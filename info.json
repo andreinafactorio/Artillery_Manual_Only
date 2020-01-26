@@ -1,7 +1,7 @@
 {
   "name": "Artillery_Manual_Only",
-  "version": "1.0.2",
-  "factorio_version": "0.17",
+  "version": "2.0.0",
+  "factorio_version": "0.18",
   "title": "Artillery Manual-Only Fire",
   "description": "Adds recipes for manual-only versions of artillery. Should work with mods that add artillery.",
   "author": "andreinafactory",
